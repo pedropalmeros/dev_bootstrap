@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "styles.scss",
+        "_laterales_pp.scss",
+        "_central_ps.scss",
+        "_laterales_ps.scss",
+        "_central_pp.scss",
+        "_nav_foot.scss",
+        "_recycle.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}

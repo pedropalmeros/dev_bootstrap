@@ -1,10 +1,37 @@
-header {
-  height: 50px;
-  border: 1px solid black;
+.p_conf_avatar {
+  height: 30px;
+  cursor: pointer;
 }
 
-.p_avatar_conf {
-  height: 25px;
+.p_conf_bell {
+  height: 40px;
+  cursor: pointer;
+}
+
+.p_conf_comment {
+  height: 40px;
+  cursor: pointer;
+}
+
+.p_conf_lupa {
+  height: 30px;
+  cursor: pointer;
+}
+
+.p_conf_logo {
+  height: 40px;
+  cursor: pointer;
+}
+
+.p_config_btn {
+  width: 200px;
+  background-color: #3B49DF;
+  color: white;
+}
+
+.p_config_btn:hover {
+  background-color: #3643CE;
+  color: white;
 }
 
 /*************

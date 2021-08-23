@@ -3,6 +3,10 @@ header {
   border: 1px solid black;
 }
 
+.p_avatar_conf {
+  height: 25px;
+}
+
 /*************
 COLORES 
 *****************/

@@ -1,5 +1,20 @@
-@import "laterales_pp.css"; // Oscar
-@import "central_ps.css"; // Pao
-@import "laterales_ps.css"; // Hiram
-@import "central_pp.css"; // Pablo
-@import "nav_foot.css"//Pedro 
+@import 'laterales_pp'; // Oscar
+@import 'central_ps'; // Pao
+@import 'laterales_ps'; // Hiram
+@import 'central_pp'; // Pablo
+@import 'nav_foot';//Pedro 
+@import 'recycle';
+
+/*************
+COLORES 
+*****************/
+$white: #fff;
+$background-gray: #EEF0F1;
+$gray-hover: #E2E4E5;
+$gray-icon: #64707D;
+$gray-icon-hover: #4D5760;
+$gray-save: #D2D6DB;
+$gray-save-hover: #B5BDC4;
+$blue-primary: #3B49DF;
+$blue-button-hover: #3643CE;
+$blue-text-hover: #323EBE;

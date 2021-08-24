@@ -1,30 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dev_Bootstrap</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="laterales_pp.css">
-    <link rel="stylesheet" href="central_ps.css">
-    <link rel="stylesheet" href="laterales_ps.css">
-    <link rel="stylesheet" href="central_pp.css">
-    <link rel="stylesheet" href="nav_foot.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dev_Bootstrap</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <!-- Awesome fontss-->
+        <script src="https://kit.fontawesome.com/08983b0b1f.js" crossorigin="anonymous"></script>
+    
+        <!-- w3 icons   -->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+        <link rel="stylesheet" href="styles.css">
+    </head>
 <body>
     <div class="container">
-    <header class="container"><!--  Pedro -->
+        <header class="container-"><!--  Pedro -->
+            <div class="row">
+                <div class="col-5   d-flex "> 
+                    <div class="hamb_menu">hamb</div>
+                    <div class="logo">
+                        <img class="p_conf_logo" src="images/header/logo.png" alt="">
+                    </div>
+    
+                    <div class="input-group d-none d-md-flex f-xl-flex">
+                        <input type="text" class="form-control" placeholder="Search..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                          <span class="input-group-text" id="basic-addon2"><img src="images/header/lupa.png" class="p_conf_lupa" alt=""></span>
+                        </div>
+                      </div>
+                </div>
+            <div class="col-1 col-md-3 col-md-3">
+    
+            </div>
+    
+            <div class="col-2 col-md-4 col-md-4  d-flex align-items-center justify-content-between">
+                <div class="rounded-circle p-1 p_conf_lupa d-xl-none d-md-none">
+                    <img class="p_conf_lupa" src="images/header/lupa.png" alt="">
+                    
+                </div>
+    
+                <button class="btn d-none d-md-flex d-xl-flex justify-content-center rounded p_config_btn"> Create Post</button>
+    
+                
+                <div class="rounded-circlep p-1">
+                    <img class="p_conf_comment d-flex " src="images/header/comment.png" alt="">
+    
+                </div>
+    
+                <div class="rounded-circle p-1 ">
+                    <img class="p_conf_bell" src="images/header/bell.png" alt="">
+    
+                </div>
+    
+                <div class="rounded-circle ">
+                    <img class="p_conf_avatar" src="images/header/Avatar_circular.png" alt="">
+                </div>
+    
+            </div>
+        </div>
+        </header>
 
     </header>
     <main class="container">
         <div class="row">
-            <div class="col">  <!-- Lateral Izquierdo --></div>
-            <div class="col">  <!-- Central --></div>
-            <div class="col">  <!-- Lateral Derecho --></div>
-        </div>
+          <!-- Lateral Izquierdo -->
+          <div id="h-izq"
+             class="col-1 d-flex flex-column justify-content-around align-items-center" style="height: 340px">
+            <div></div>
+            <div class="d-flex flex-column align-items-center">
+              <svg
+                id="h-heart"
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                />
+              </svg>
+              <p style="font-size: 0.8em">71</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+              <svg
+                id="h-star"
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                
+                class="bi bi-star"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"
+                />
+              </svg>
+              <p style="font-size: 0.8em">16</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+              <svg
+                id="h-mark"
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                
+                class="bi bi-bookmark"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                />
+              </svg>
+              <p style="font-size: 0.8em">23</p>
+            </div>
+            <svg
+              id="h-more"
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              
+              class="bi bi-three-dots"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
+              />
+            </svg>
+          </div>
 
-    </main>
+<!-- ++++++++++++++ BARRA INFERIOR  INICIO +++++++++++++++++ -->
+          <div
+            id="h-izq-inf" class="col-12 d-flex justify-content-around align-items-start pt-2" style="height: 50px">
+            
+            <div class="d-flex flex-column align-items-center">
+              <svg
+                id="h-heart"
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                />
+              </svg>
+              <p style="font-size: 0.8em">71</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+              <svg
+                id="h-star"
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                
+                class="bi bi-star"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"
+                />
+              </svg>
+              <p style="font-size: 0.8em">16</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+              <svg
+                id="h-mark"
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                
+                class="bi bi-bookmark"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                />
+              </svg>
+              <p style="font-size: 0.8em">23</p>
+            </div>
+            <svg
+              id="h-more"
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              
+              class="bi bi-three-dots"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
+              />
+            </svg>
+          </div>
+
+          <!-- ++++++++++++++ BARRA INFERIOR FIN +++++++++++++++++ -->
+
+          <div class="col"><!-- Central --></div>
+          <!-- Lateral Derecho -->
+          <div class="col-4  d-none d-lg-block " style="height: 710px"> 
+            <img id="h-profile" src="/10_entregamaquetado/dev_bootstrap/dev_bootstrap/h-images/profile.png"alt="">
+            <div class="card w-100 h-card-bg">
+              <div id="h-card-top"></div>
+              
+              <div class="card-body d-flex flex-column">
+                <h5
+                  class="card-title"
+                  style="
+                    position: relative;
+                    left: 50px;
+                    bottom: 10px;
+                    font-size: 1.3em;
+                    font-weight: 700;
+                  "
+                >
+                  Chris Hansen
+                </h5>
+                <a href="#" class="btn btn-primary m-1">Follow</a>
+                <p class="card-text m-1">
+                  Frontend Developer with self-taught passion. Life Plan:
+                  Frontend Dev at great company(experience) > Freelance(doing
+                  this) > Soloprenuer > Content Creator 🪐 👾 🛸 🌿 🌎 🏔 📚 🕹 💻
+                </p>
+              </div>
+              <div class="m-3">
+                <p class="card-text m-2 h-title">LOCATION</p>
+                <p class="card-text m-2 pb-2">SF Bay Area</p>
+                <p class="card-text m-2 h-title">EDUCATION</p>
+                <p class="card-text m-2 pb-2">Codecamp graduate</p>
+                <p class="card-text m-2 h-title">WORK</p>
+                <p class="card-text m-2 pb-2">Fronted Developer at Freelance</p>
+                <p class="card-text m-2 h-title">JOINED</p>
+                <p class="card-text m-2 pb-2">17 nov 2019</p>
+              </div>
+            </div>
+            <div class="card w-100 mt-3 h-card-bg">
+              <div class="card-body d-flex flex-column">
+                <h5
+                  class="card-title"
+                  style="font-size: 1.3em; font-weight: 700"
+                >
+                  More from
+                  <span style="cursor: pointer; color: #3b49df"
+                    >Chris Hansen</span
+                  >
+                </h5>
+                <hr />
+
+                <div class="h-card-white">
+                  <p class="card-text m-1 h-card-white">
+                    Easiest way to add icons to your React Apps 🥳️
+                  </p>
+                  <ul
+                    class="d-flex justify-content-around list-unstyled flex-wrap">
+                    <li class="h-list">#webdev</li>
+                    <li class="h-list">#beginners</li>
+                    <li class="h-list">#javascript</li>
+                    <li class="h-list">#react</li>
+                  </ul>
+                </div>
+
+                <hr>
+
+                <div class="h-card-white">
+                    <p class="card-text m-1 h-card-white">
+                      Easiest way to add icons to your React Apps 🥳️
+                    </p>
+                    <ul
+                      class="d-flex justify-content-around list-unstyled flex-wrap">
+                      <li class="h-list">#webdev</li>
+                      <li class="h-list">#beginners</li>
+                      <li class="h-list">#javascript</li>
+                      <li class="h-list">#react</li>
+                    </ul>
+                  </div>
+
+                  <hr>
+
+                <div class="h-card-white">
+                    <p class="card-text m-1 h-card-white">
+                      Easiest way to add icons to your React Apps 🥳️
+                    </p>
+                    <ul
+                      class="d-flex justify-content-around list-unstyled flex-wrap">
+                      <li class="h-list">#webdev</li>
+                      <li class="h-list">#beginners</li>
+                      <li class="h-list">#javascript</li>
+                      <li class="h-list">#react</li>
+                    </ul>
+                  </div>
+              
+            </div>
+          </div>
+        </div>
+      </main>
+
     <footer class="container">
 
     </footer>

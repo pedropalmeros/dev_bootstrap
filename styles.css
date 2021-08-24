@@ -1,0 +1,124 @@
+#h-izq {
+  background: #eef0f1;
+}
+
+@media (max-width: 768px) {
+  #h-izq {
+    display: none !important;
+  }
+}
+
+#h-izq-inf {
+  background: #eef0f1;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  width: 100%;
+  left: -0px;
+}
+
+@media (min-width: 768px) {
+  #h-izq-inf {
+    display: none !important;
+  }
+}
+
+#h-heart:hover {
+  fill: #e01a1a;
+}
+
+#h-star:hover {
+  fill: #28cca3;
+}
+
+#h-mark:hover {
+  fill: #1773fc;
+}
+
+#h-more {
+  fill: #6b6b6b;
+}
+
+#h-more:hover {
+  fill: black;
+}
+
+#h-card-top {
+  height: 30px;
+  border-radius: 6px 6px 0 0;
+  background: #070c34;
+}
+
+.h-title {
+  color: #64707d;
+  font-size: .7em;
+  font-weight: 700;
+}
+
+.h-list {
+  color: #64707d;
+  font-size: .9em;
+}
+
+.h-list:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.h-card-bg {
+  background: #f9fafa;
+}
+
+.h-card-white:hover {
+  background: #fff;
+  cursor: pointer;
+  color: #323EBE;
+}
+
+#h-profile {
+  position: absolute;
+  top: 57px;
+  margin-left: 7px;
+  z-index: 10;
+}
+
+.p_conf_avatar {
+  height: 30px;
+  cursor: pointer;
+}
+
+.p_conf_bell {
+  height: 40px;
+  cursor: pointer;
+}
+
+.p_conf_comment {
+  height: 40px;
+  cursor: pointer;
+}
+
+.p_conf_lupa {
+  height: 30px;
+  cursor: pointer;
+}
+
+.p_conf_logo {
+  height: 40px;
+  cursor: pointer;
+}
+
+.p_config_btn {
+  width: 200px;
+  background-color: #3B49DF;
+  color: white;
+}
+
+.p_config_btn:hover {
+  background-color: #3643CE;
+  color: white;
+}
+
+/*************
+COLORES 
+*****************/
+/*# sourceMappingURL=styles.css.map */
